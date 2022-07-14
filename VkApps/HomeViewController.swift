@@ -20,7 +20,7 @@ class HomeViewController: UIViewController, HomeViewControllerProtocol {
         let lbl = UILabel()
         lbl.translatesAutoresizingMaskIntoConstraints = false
         lbl.text = "Сервисы VK"
-        lbl.font.withSize(35)
+        lbl.font = UIFont(name:"HelveticaNeue-Bold", size: 20)
         return lbl
     }()
     
